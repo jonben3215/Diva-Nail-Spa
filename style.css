@@ -1,0 +1,86 @@
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  float: right;
+  top: 0;
+  width: 100%;
+}
+
+.topnav-right {
+    float: right;
+}
+.navbar a.active
+{
+    background-color: #f9dede;
+    color: black;
+}
+.noHover{
+  color: transparent;
+}
+.navbar-logo {
+  background:transparent;
+  
+}
+.navbar-logo a:hover {
+ background: transparent;
+ color: transparent;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input
+{
+    height : 45px;
+}
+form .submit
+{
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
