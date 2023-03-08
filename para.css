@@ -89,16 +89,13 @@ h3 {
   border-radius: .3em;;
 }
 
-.img-first {
-  background-image: url(https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1606&q=80);
-}
 
 .img-second {
-  background-image: url(https://images.unsplash.com/photo-1628746404106-4d3843b231b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+  background-image: url(https://scontent-den4-1.xx.fbcdn.net/v/t1.15752-9/332900969_1179391319440580_3988423805411251010_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TnWmjwxzkbkAX8jhbZU&_nc_ht=scontent-den4-1.xx&oh=03_AdSaz643OZ1Fu85rjNU0VZo-lycOdEF9jYtbJEQ7xJrQNQ&oe=642F76EE);
 }
 
 .img-third {
-  background-image: url(https://images.unsplash.com/photo-1632853073412-782bf0279d65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-image: url(https://images.ctfassets.net/pdf29us7flmy/5Bqutg3E4IBkc6WelvwYXH/59d1e86ea9bf8caf559324301294d820/Time-day__1_.png?w=720&q=100&fm=jpg);
 }
 
 .second {
