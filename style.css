@@ -105,3 +105,10 @@ form .submit
   padding: 50px;
   text-align: center;
 }
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 350px;
+}
