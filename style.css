@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
-body {margin:0;}
+
+body {
+  margin: 0;
+}
 
 a {
   display: inline-block;
@@ -10,9 +13,10 @@ a {
   text-transform: uppercase;
   border-radius: 0.3em;
   font-weight: 700;
-  letter-spacing: .5px;
-  font-size: .875rem;
+  letter-spacing: 0.5px;
+  font-size: 0.875rem;
 }
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -23,24 +27,27 @@ a {
 }
 
 .topnav-right {
-    float: right;
+  float: right;
 }
-.navbar a.active
-{
-    background-color: #f9dede;
-    color: black;
+
+.navbar a.active {
+  background-color: #f9dede;
+  color: black;
 }
-.noHover{
+
+.noHover {
   color: transparent;
 }
+
 .navbar-logo {
-  background:transparent;
-  
+  background: transparent;
 }
+
 .navbar-logo a:hover {
- background: transparent;
- color: transparent;
+  background: transparent;
+  color: transparent;
 }
+
 .navbar a {
   float: left;
   display: block;
@@ -50,6 +57,7 @@ a {
   text-decoration: none;
   font-size: 17px;
 }
+
 .navbar a:hover {
   background: #ddd;
   color: black;
@@ -60,40 +68,41 @@ a {
   margin-top: 30px;
   height: 1500px; /* Used in this example to enable scrolling */
 }
-form
-{
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
 }
-.form-control
-{
-    width: 600px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    color: black;
-    font-size: 18px;
-    margin-bottom: 16px;
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
 }
-input
-{
-    height : 45px;
+
+input {
+  height: 45px;
 }
-form .submit
-{
-    background: #ff5722;
-    border-color: transparent;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
 }
+
 .container {
   background-image: url('Painting.jpg');
-  background-position:top;
+  background-position: top;
   background-size: cover;
   height: 350px;
   width: 100%;
@@ -105,10 +114,53 @@ form .submit
   padding: 50px;
   text-align: center;
 }
+
 .flex-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   position: absolute;
   top: 350px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #333;
+    padding: 10px;
+  }
+  .navbar p {
+    position: relative;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+  }
+  .topnav-right {
+    display: none;
+  }
+  .navbar a {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-bottom: 1px solid #444;
+  }
+  .navbar a.active {
+    background-color: #f9dede;
+    color: black;
+    border-bottom: none;
+  }
+  .navbar a:hover {
+    background-color: #444;
+    color: #fff;
+  }
 }
