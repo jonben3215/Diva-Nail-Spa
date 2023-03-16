@@ -1,0 +1,19 @@
+.container * {
+  font-family: Brush Script MT;
+}
+.btn-direction, .btn-direction:hover {
+  background-color: #4c2c92;
+  border: none;
+}
+.container {
+  margin-top: 77px;
+}
+.OpeningDay {
+    color: white;
+    background-color: #2E2EFF;
+}
+@media screen and (max-width: 991px) {
+  .hour-list {
+    width: 100%;
+  }
+}

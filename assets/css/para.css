@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+--color: #333; 
+}
+
+.div-wrap {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://cdn.sanity.io/images/0vv8moc6/infenctioncontrol/6c7f657f47f32273576367aace4e390b1260fcac-1920x1080.jpg');
+  background-size: cover;
+  background-position: center;
+  
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+
+/*h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+}*/
+
+/*a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+}*/
+
+.other {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+}
+
+.second {
+  background-image:url( https://assets.vogue.in/photos/5ce41dda89be3650907cedf0/master/pass/How-to-put-together-the-perfect-nail-kit-including-colour-and-care-vogue-india.jpg);
+ 
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+.item-content .item-title {
+  font-weight: 700 !important;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+.item-content .btn {
+  background-color: #333;
+  border: none;
+}
+
+.item {
+  padding: 15px;
+  display: flex;
+  max-width: 320px;
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.item.m-r-30 {
+  margin-right: 40px;
+}
+
+.item.m-l-30 {
+  margin-left: 40px;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  border-radius: .3em;;
+}
+
+
+.img-second {
+  background-image: url(https://scontent-den4-1.xx.fbcdn.net/v/t1.15752-9/332900969_1179391319440580_3988423805411251010_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TnWmjwxzkbkAX8jhbZU&_nc_ht=scontent-den4-1.xx&oh=03_AdSaz643OZ1Fu85rjNU0VZo-lycOdEF9jYtbJEQ7xJrQNQ&oe=642F76EE);
+}
+
+.img-third {
+  background-image: url(https://images.ctfassets.net/pdf29us7flmy/5Bqutg3E4IBkc6WelvwYXH/59d1e86ea9bf8caf559324301294d820/Time-day__1_.png?w=720&q=100&fm=jpg);
+}
+
+.second {
+  flex-direction: row;
+  gap: 10em;
+}
+
+@media screen and (max-width: 991px) {
+  .div-wrap.second {
+    display: block;
+  }
+  .item {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+  .item.m-r-30 {
+    margin-right: 0px;
+  }
+
+  .item.m-l-30 {
+    margin-left: 0px;
+  }
+
+  .div-wrap.second .item:nth-child(1) {
+    margin-bottom: 15px;
+  }
+}

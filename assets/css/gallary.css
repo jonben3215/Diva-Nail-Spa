@@ -1,0 +1,19 @@
+.container-fluid {
+    margin-top: 71px;
+}
+@media screen and (min-width: 991px) {
+   .col-md-3 {
+       position: relative;
+       width: 100%;
+       padding-right: 3px;
+       padding-left: 3px;
+  }
+   .col-md-3 img {
+       padding-top: 6px;
+  }
+}
+@media screen and (max-width: 991px) {
+   .col-md-3 {
+       padding: 0px;
+  }
+}
