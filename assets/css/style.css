@@ -99,4 +99,7 @@ form .submit {
   width: 100%;
   position: absolute;
   top: 350px;
+}*/
+.navbar-brand {
+  color: maroon !important;
 }

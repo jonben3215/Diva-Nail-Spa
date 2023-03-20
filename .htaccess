@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^service$ service.html [L]
+RewriteRule ^Home$ index.html [L]
+RewriteRule ^Gallary$ gal.html [L]
+RewriteRule ^Location$ loca.html [L]
+RewriteRule ^Contact$ contact.html [L]
